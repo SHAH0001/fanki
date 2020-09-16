@@ -8,7 +8,6 @@
 .header-wrapper {
     display: flex;
     justify-content: space-between;
-    // align-items: center;
 }
 
 .logo {
@@ -32,27 +31,29 @@
 }
 
 .messages {
+    display: flex;
+    align-items: center;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     color: $gray-l1;
     text-decoration: none;
-    background-image: url('../../assets/icons/bell.svg');
-    background-position: 11px 4px;
-    background-repeat: no-repeat;
+    // background-image: url('../../assets/icons/bell.svg');
+    // background-position: 11px 4px;
+    // background-repeat: no-repeat;
     background-color: #F8F8F8;
-    padding: 8px 32px;
+    padding: 4px 15px 2px 15px;
     border: 1px solid #DDDDDD;
     border-radius: 6px;
-    margin: 0 0 0 0;
+}
+
+.messages-icon {
+    // display: inline-block;
+    margin: 2px 8px 0 0;
 }
 
 .user-account {
     display: flex;
-}
-
-.user-info {
-
 }
 
 .user-name {
@@ -92,10 +93,3 @@
     background-repeat: no-repeat;
     margin: 13px -18px 0 0;
 }
-
-// chevron-down
-// .bell {
-//     background-image: url('../../assets/icons/bell.svg');
-//     background-position: 50%;
-//     background-repeat: no-repeat;
-// }
