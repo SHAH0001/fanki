@@ -32,6 +32,7 @@ img {
     padding: 0 15px;
 }
 
-text {
-    color: red;
+.container-content {
+    display: flex;
+    justify-content: space-between;
 }

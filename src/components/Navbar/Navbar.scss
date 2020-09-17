@@ -1,1 +1,38 @@
 @import "../../scss/vars.scss";
+
+.nav {
+
+}
+
+.nav-section {
+
+}
+
+.nav-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    // line-height: 14px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $black-l1;
+}
+
+.nav-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-items span {
+    
+}
+
+.nav-items-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    // line-height: 17px;
+    text-decoration: none;
+    color: $black-l1;
+}
