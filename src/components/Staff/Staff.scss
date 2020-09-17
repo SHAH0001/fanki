@@ -1,7 +1,7 @@
 @import "../../scss/vars.scss";
 
 .staff {
-    
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
 }
 
 .card-title-block {
@@ -73,7 +73,7 @@
 
 .staff-info-wrapper {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0 auto 21px auto;
 }
 
 .staff-info-count-block {
@@ -142,4 +142,97 @@
     font-size: 14px;
     color: $gray-l2;
     padding: 0 5px 0 80px;
+}
+
+.staff-slider {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    // align-items: center
+    border: 1px solid $gray-l0;
+    border-radius: 6px;
+    margin: 13px 0 0 0;
+    padding: 20px 45px 0px 45px;
+}
+
+.staff-slider-item {
+    width: 33.3333%;
+    margin: 0 0 21px 0;
+}
+
+.staff-item {
+    display: flex;
+}
+
+.staff-avatar {
+    display: inline-block;
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -4px;
+}
+
+.staff-avatar img {
+
+}
+
+.staff-info-item {
+
+}
+
+.staff-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: $black-l1;
+    margin: 3px 0 0 10px;
+    text-decoration: none;
+}
+
+.staff-profession {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: $gray-l2;
+    margin: 1px 0 0 10px;
+}
+
+.staff-time {
+    margin: 7px 57px 0 -5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 3px 6px;
+    text-transform: uppercase;
+}
+
+.blue {
+    background: rgba(45, 156, 219, 0.1);
+    border-radius: 6px;
+    color: $blue-s1;
+}
+
+.orange {
+    background: rgba(242, 153, 74, 0.1);
+    border-radius: 6px;
+    color: $orange-s1;
+}
+
+.staff-slider-left-button,
+.staff-slider-right-button {
+    position: absolute;
+    top: 46%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.staff-slider-left-button {
+    left: 0;
+}
+
+.staff-slider-right-button {
+    right: 0;
 }
