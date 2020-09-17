@@ -3,7 +3,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
 return (
-<nav class="nav">
+<nav className="nav">
     <div className="nav-section">
         
         <h3 className="nav-title">
@@ -163,9 +163,9 @@ return (
             </li>
         </ul>
     </div>
-    <div class="nav-section">
+    <div className="nav-section">
         
-        <h3 class="nav-title">
+        <h3 className="nav-title">
             <span>Администратор</span>
             <span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +184,7 @@ return (
             </span>
         </h3>
 
-        <ul class="nav-items">
+        <ul className="nav-items">
             <li>
                 <a href="#" className="nav-items-link">
                     <span className="link-icon">

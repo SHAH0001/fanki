@@ -1,0 +1,145 @@
+@import "../../scss/vars.scss";
+
+.staff {
+    
+}
+
+.card-title-block {
+    background: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0px 0px;
+    padding: 8px 0 5px 21px;
+    // height: 40px;
+}
+
+.headline-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $black-l1;
+}
+
+.notification-count {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: $red-s1;
+    color: $white;
+    padding: 1px 11px;
+    margin: 0 0 0 10px;
+}
+
+.tabs {
+    display: flex;
+    margin: 14px 0 0 0;
+}
+
+.tabs .tab:first-child {
+    border-left: 1px solid $gray-l0;
+}
+
+.tab {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid $gray-l0;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 6px 6px 0px 0px;
+    background: #F5F5F5;
+    color: $gray-l2;
+    padding: 11px 15px;
+}
+
+.tab-active {
+    color: $black-l1;
+    background: $white;
+}
+
+.staff-info {
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    margin: -5px 0 0 0;
+    border-radius: 6px;
+    background: $white;
+}
+
+.staff-info-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.staff-info-count-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0 0 0;
+}
+
+.staff-info-count-item {
+    border-radius: 6px;
+    background-color: $gray-l3;
+    padding: 8px 0;
+}
+
+.all {
+    background: rgba(39, 174, 96, 0.1);
+}
+
+.all,
+.blue-s1,
+.orange-s1,
+.red-s1 {
+    position: relative;
+}
+
+.all::before,
+.blue-s1::before,
+.orange-s1::before,
+.red-s1::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 26px;
+    border-radius: 6px;
+    top: 5px;
+    left: 5px;
+}
+
+.all::before {
+    background-color: $green-s1;
+}
+
+.blue-s1::before {
+    background-color: $blue-s1;
+}
+
+.orange-s1::before {
+    background-color: $orange-s1;
+}
+
+.red-s1::before {
+    background-color: $red-s1;
+}
+
+.item-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: $black-l1;
+    padding: 0 0 0 17px;
+}
+
+.item-count {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: $gray-l2;
+    padding: 0 5px 0 80px;
+}

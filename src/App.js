@@ -3,18 +3,19 @@ import './App.scss';
 import './scss/vars.scss';
 import Header from './components/Header/Header.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
-import MainContent from './components/MainContent/MainContent.jsx';
+import Staff from './components/Staff/Staff.jsx';
+
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className="container">
-        <div className="container-content">
+      <div className="container clearfix">
           <Navbar />
-          <MainContent />
-        </div>
+          <div className="main-content">
+            <Staff />
+          </div>
       </div>
     </div>
   );
