@@ -3,7 +3,7 @@ import "./MainContent.scss";
 
 const MainContent = () => {
     return (
-        <div>Content!</div>
+        <div className="text">Content!</div>
     );
 }
 
