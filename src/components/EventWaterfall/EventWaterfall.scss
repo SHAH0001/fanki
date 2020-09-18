@@ -1,0 +1,108 @@
+@import "../../scss/vars.scss";
+
+.event-water-fall-block-wrapper {
+    width: 66%;
+    margin-top: 2%;
+}
+
+.event-water-fall-block {
+    background: #F5F5F5;
+    border: 1px solid $gray-l0;
+    border-radius: 6px 6px 0px 0px;
+    padding: 10px 0;
+}
+
+.event-water-fall-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $black-l1;
+    padding: 0 0 0 20px;
+}
+
+.event-water-fall-count {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: $red-s1;
+    color: $white;
+    padding: 1px 7px;
+    border-radius: 6px;
+    margin: 0 0 0 18px;
+}
+
+.event-water-fall-block-body {
+    background-color: $white;
+    padding: 20px 0 0 0;
+    border-left: 1px solid $gray-l0;
+    border-right: 1px solid $gray-l0;
+}
+
+.news {
+    position: relative;
+    border-top: 1px solid $fanki-s1;
+    background-color: #FEF9EC;
+    padding: 0 0 20px 0;
+}
+
+.news-label {
+    position: absolute;
+    top: -13%;
+    left: 17px;
+    padding: 4px 21px;
+    border: 1px solid $fanki-s1;
+    background-color: $white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.news-user {
+    display: flex;
+    margin: 20px 0 0 21px;
+}
+
+.news-user-link {
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.news-user-link img {
+
+}
+
+.news-user-info {
+
+}
+
+.user-name {
+    font-weight: 800;
+    font-size: 14px;
+    color: $black-l1;
+    text-decoration: none;
+    margin: 0 10px 0 12px;
+}
+
+.publication-date {
+    font-weight: normal;
+    font-size: 14px;
+    color: #959595;
+}
+
+.publication-text {
+    font-weight: normal;
+    font-size: 14px;
+    color: $black-l1;
+    padding: 10px;
+    margin: 5px 0 0 10px;
+    background: rgba(242, 201, 76, 0.2);
+    border-radius: 6px;
+}
+
+.yesterday {
+
+}

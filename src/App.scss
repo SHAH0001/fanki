@@ -33,16 +33,15 @@ img {
 }
 
 .container-content {
-    // display: flex;
-    // justify-content: space-between;
     position: relative;
-    // margin-top: 7%;
 }
 
 .main-content {
     width: 1000px;
-    // max-width: 1000px;
-    // margin: 77px 0 0 190px;
     margin: 77px -19px 0 0;
     float: right;
+}
+
+.event-waterfall-and-notifications {
+    display: flex;
 }

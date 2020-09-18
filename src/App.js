@@ -5,8 +5,7 @@ import Header from './components/Header/Header.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Staff from './components/Staff/Staff.jsx';
 import Cards from './components/Cards/Cards.jsx';
-
-
+import EventWaterfall from './components/EventWaterfall/EventWaterfall.jsx';
 
 
 function App() {
@@ -18,6 +17,9 @@ function App() {
           <div className="main-content">
             <Staff />
             <Cards />
+            <div className="event-waterfall-and-notifications">
+              <EventWaterfall />
+            </div>
           </div>
       </div>
     </div>
