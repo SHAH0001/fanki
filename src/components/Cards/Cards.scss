@@ -49,6 +49,95 @@
 
 .slider {
     position: relative;
+    text-align: center;
+}
+
+.slider-text {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    // text-align: center;
+    padding: 59px 25px 0 25px;
+}
+
+.slider-text-orange {
+    background-color: $fanki-s2;
+    color: $fanki-s1;
+    padding: 3px 8px;
+    font-weight: bold;
+}
+
+.from-employees {
+    display: inline-block;
+    padding: 8px 0 0 0;
+}
+
+.slider-calendar {
+    padding: 10% 0 0 0;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    // text-align: center;
+    border: 1px solid $gray-l0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.month {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px;
+    height: 15px;
+    background: #DE2F2F;
+    border-radius: 7px 7px 0px 0px;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.number {
+    height: 25px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: $black-l1;
+}
+
+.name-event-and-time {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: $gray-l2;
+    // text-align: center;
+    padding-top: 10px;
+}
+
+.name-event {
+    font-weight: normal;
+    font-size: 14px;
+    color: $black-abs;
+    margin: 27px 0 0 0;
+}
+
+.knowledge-base {
+    padding: 49px 0 0 0;
+}
+
+.knowledge-base-image {
+
+}
+
+.knowledge-base-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: $gray-l2;
+    margin: 4px 0 0 0;
 }
 
 .slider-items {
