@@ -39,7 +39,7 @@
     padding: 20px 0 35px 0;
     border-left: 1px solid $gray-l0;
     border-right: 1px solid $gray-l0;
-    border-radius: 6px;
+    border-radius: 0 0 6px 6px;
     // border-bottom: 1px solid $gray-l0;
 }
 
@@ -83,11 +83,11 @@
 }
 
 .user-name {
-    font-weight: 800;
-    font-size: 14px;
-    color: $black-l1;
-    text-decoration: none;
-    margin: 0 10px 0 12px;
+    // font-weight: 800;
+    // font-size: 14px;
+    // color: $black-l1;
+    // text-decoration: none;
+    // margin: 0 10px 0 12px;
 }
 
 .publication-date {
