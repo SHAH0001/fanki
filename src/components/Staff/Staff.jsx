@@ -34,23 +34,29 @@ return (
     <div className="staff-info">
         <div className="staff-info-wrapper">
             <div className="staff-info-count-block">
+                
                 <div className="staff-info-count-item all">
                     <span className="item-name">Все</span>
                     <span className="item-count">23 сотрудника</span>
                 </div>
+
                 <div className="staff-info-count-item blue-s1">
                     <span className="item-name">В отпуске</span>
                     <span className="item-count">7 сотрудников</span>
                 </div>
+
                 <div className="staff-info-count-item orange-s1">
                     <span className="item-name">Отгул</span>
                     <span className="item-count">10 сотрудников</span>
                 </div>
+
                 <div className="staff-info-count-item red-s1">
                     <span className="item-name">Болничный</span>
                     <span className="item-count">Нет</span>
                 </div>
+                
             </div>
+
             <div className="staff-slider">
                 
                 <div className="staff-slider-item">

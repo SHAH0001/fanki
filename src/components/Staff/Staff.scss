@@ -10,7 +10,6 @@
     box-sizing: border-box;
     border-radius: 6px 6px 0px 0px;
     padding: 8px 0 5px 21px;
-    // height: 40px;
 }
 
 .headline-title {
@@ -149,7 +148,6 @@
     justify-content: space-around;
     flex-wrap: wrap;
     position: relative;
-    // align-items: center
     border: 1px solid $gray-l0;
     border-radius: 6px;
     margin: 13px 0 0 0;
@@ -171,14 +169,6 @@
     width: 24px;
     height: 24px;
     margin: 0 0 0 -4px;
-}
-
-.staff-avatar img {
-
-}
-
-.staff-info-item {
-
 }
 
 .staff-name {

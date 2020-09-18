@@ -4,6 +4,8 @@ import './scss/vars.scss';
 import Header from './components/Header/Header.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Staff from './components/Staff/Staff.jsx';
+import Cards from './components/Cards/Cards.jsx';
+
 
 
 
@@ -15,6 +17,7 @@ function App() {
           <Navbar />
           <div className="main-content">
             <Staff />
+            <Cards />
           </div>
       </div>
     </div>
