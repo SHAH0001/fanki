@@ -3,6 +3,7 @@
 .event-water-fall-block-wrapper {
     width: 66%;
     margin-top: 2%;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
 }
 
 .event-water-fall-block {
@@ -35,9 +36,11 @@
 
 .event-water-fall-block-body {
     background-color: $white;
-    padding: 20px 0;
+    padding: 20px 0 35px 0;
     border-left: 1px solid $gray-l0;
     border-right: 1px solid $gray-l0;
+    border-radius: 6px;
+    // border-bottom: 1px solid $gray-l0;
 }
 
 .news {
@@ -129,4 +132,113 @@
     color: $black-l1;
     padding: 10px;
     margin: 5px 0 0 10px;
+}
+
+.article-wrapper {
+    border-bottom: 1px solid $gray-l0;
+}
+
+.article {
+    width: 94%;
+    margin: 20px auto 0 auto;
+    // border-bottom: 1px solid $gray-l0;
+}
+
+.article-img-block {
+    position: relative;
+}
+
+.article-img-block img {
+    border-radius: 4px;
+}
+
+.article-img-info {
+    position: absolute;
+    font-weight: 800;
+    font-size: 24px;
+    top: 16px;
+    left: 18px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.article-info {
+    margin: 7px 0 0 11px;
+}
+
+.article-data {
+    font-weight: normal;
+    font-size: 13px;
+    color: $gray-l1;
+    margin: 0;
+}
+
+.article-title {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 16px;
+    color: $black-l1;
+    margin: 3px 0 0 0;
+    text-decoration: none;
+}
+
+.article-description {
+    font-weight: normal;
+    font-size: 13px;
+    color: $gray-l1;
+    margin: 2px 0 0 0;
+}
+
+.article-emotions-comments {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 22px 0;
+}
+
+.emotions {
+    display: flex;
+    margin: 12px 0 0 13px;
+}
+
+.emotion-item {
+    width: 50px;
+    height: 24px;
+    border: 1px solid $gray-l0;
+    border-radius: 50px;
+    background-image: url('../../assets/images/emote.png');
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    background-color: $gray-l3;
+    font-weight: normal;
+    font-size: 12px;
+    color: $gray-l2;
+    text-align: right;
+    padding: 3px 12px 0 0;
+    margin: 0 13px 0 0;
+}
+
+.emotion-smile {
+    background-image: url('../../assets/images/smile-with-plus.png');
+    background-position: 50%;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+    background: $gray-l3;
+    border: 1px solid $gray-l0;
+    margin: 12px 9px 0 0;
+    padding: 0 16px;
+    text-decoration: none;
+    color: #616061;
+}
+
+.comments-text {
+    padding: 0 0 0 5px;
 }
