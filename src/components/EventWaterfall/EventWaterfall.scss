@@ -35,7 +35,7 @@
 
 .event-water-fall-block-body {
     background-color: $white;
-    padding: 20px 0 0 0;
+    padding: 20px 0;
     border-left: 1px solid $gray-l0;
     border-right: 1px solid $gray-l0;
 }
@@ -93,7 +93,7 @@
     color: #959595;
 }
 
-.publication-text {
+.news-publication-text {
     font-weight: normal;
     font-size: 14px;
     color: $black-l1;
@@ -104,5 +104,29 @@
 }
 
 .yesterday {
+    position: relative;
+    background-color: $gray-l3;
+    border-top: 1px solid $gray-l0;
+    border-bottom: 1px solid $gray-l0;    
+    padding: 0 0 20px 0;
+}
 
+.yesterday-label {
+    position: absolute;
+    bottom: -16px;
+    left: 18px;
+    border: 1px solid $gray-l0;
+    border-radius: 4px;
+    padding: 5px 24px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: $white;
+}
+
+.yesterday-publication-text {
+    font-weight: normal;
+    font-size: 14px;
+    color: $black-l1;
+    padding: 10px;
+    margin: 5px 0 0 10px;
 }

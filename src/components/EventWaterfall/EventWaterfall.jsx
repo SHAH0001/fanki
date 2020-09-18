@@ -21,13 +21,27 @@ return (
                 <div className="news-user-info">
                     <a href="#" className="user-name">Fanki Soft</a>
                     <span className="publication-date">Сегодня, 10:50</span>
-                    <p className="publication-text">
+                    <p className="news-publication-text">
                         Текст объявления, который написан от лица компании.
                     </p>
                 </div>
             </div>
         </div>
-        <div className="yesterday"></div>
+        <div className="yesterday">
+            <span className="yesterday-label">Вчера</span>
+            <div className="news-user">
+                <a className="news-user-link" href="#">
+                    <img src={avatar_11} alt="" />
+                </a>
+                <div className="news-user-info">
+                    <a href="#" className="user-name">Fanki Soft</a>
+                    <span className="publication-date">Сегодня, 10:50</span>
+                    <p className="yesterday-publication-text">
+                        Текст объявления, который написан от лица компании.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 );
