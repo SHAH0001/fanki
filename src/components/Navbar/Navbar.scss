@@ -3,8 +3,6 @@
 .nav {
     position: fixed;
     height: 100%;
-    // top: 0;
-    // left: 0;
     max-width: 190px;
     z-index: 2;
     margin: 80px 0 0 -13px;
@@ -17,7 +15,6 @@
 .nav-title {
     display: flex;
     align-items: center;
-    font-style: normal;
     font-weight: normal;
     font-size: 12px;
     margin: 0;
@@ -37,14 +34,12 @@
 .nav-items-link {
     display: flex;
     align-items: center;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
     color: $black-l1;
     padding: 4px 10px 5px 10px;
     margin: 0 0 8px 0;
-    // border: 1px solid red;
 }
 
 .link-icon {

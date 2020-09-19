@@ -5,6 +5,7 @@
 body {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-weight: normal;
+    font-style: normal;
     background-color: #E5E5E5;
     margin: 0;
 }
@@ -52,6 +53,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 0;
+    padding: 0 0 40px 0;
 }
 
 
@@ -63,7 +65,6 @@ img {
 }
 
 .ewn-title {
-    font-style: normal;
     font-weight: bold;
     font-size: 13px;
     letter-spacing: 0.12em;
@@ -73,7 +74,6 @@ img {
 }
 
 .ewn-count {
-    font-style: normal;
     font-weight: 900;
     font-size: 14px;
     background-color: $red-s1;
@@ -91,13 +91,13 @@ img {
 }
 
 .ewn-item-footer {
+    font-weight: bold;
+    font-size: 13px;
     border: 1px solid $gray-l0;
-    border-top: none;
-    padding: 0 0 35px 0;
+    height: 40px;
     background-color: $white;
     border-radius: 0 0 6px 6px;
-}
-
-.footer {
-    height: 150px;
+    text-transform: uppercase;
+    color: $fanki-s1;
+    letter-spacing: 0.12em;
 }

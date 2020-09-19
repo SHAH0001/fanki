@@ -37,7 +37,6 @@
 .messages {
     display: flex;
     align-items: center;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     color: $gray-l1;
@@ -57,7 +56,6 @@
 }
 
 .user-name {
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     color: $black-l1;
@@ -65,7 +63,6 @@
 }
 
 .user-profession {
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     color: $gray-l1;

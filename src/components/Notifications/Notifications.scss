@@ -7,7 +7,6 @@
 .notifications-wrapper {
     width: 85%;
     margin: 0 auto;
-    // padding: 17px 0 0 0;
 }
 
 .notification-item:first-child {
@@ -29,10 +28,6 @@
 .notification-content {
     margin: 0 0 0 10px;
     padding: 0 0 0 0;
-}
-
-.notification-user-name-and-time {
-
 }
 
 .notification-user-name {
@@ -67,16 +62,16 @@
     line-height: 17px;
 }
 
-.notification-tags {
-
-}
-
 .notification-tag {
     font-weight: 500;
     font-size: 14px;
     color: $gray-l2;
 }
 
-.ewn-item-footer {
-    // border: 1px solid $gray-l0;
+.ewn-item-footer a {
+    display: flex;
+    align-items: center;
+    color: $fanki-s1;
+    text-decoration: none;
+    padding: 8px 0 0 21px;
 }
