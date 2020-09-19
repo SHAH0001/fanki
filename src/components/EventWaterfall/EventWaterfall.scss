@@ -1,8 +1,7 @@
 @import "../../scss/vars.scss";
 
-
 .ewn-item {
-
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
 }
 
 .event-waterfall {
@@ -245,12 +244,4 @@
 
 .comments-text {
     padding: 0 0 0 5px;
-}
-
-.ewn-item-footer {
-    border: 1px solid $gray-l0;
-    border-top: none;
-    padding: 0 0 35px 0;
-    background-color: $white;
-    border-radius: 0 0 6px 6px;
 }

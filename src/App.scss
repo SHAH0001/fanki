@@ -44,7 +44,16 @@ img {
 
 .event-waterfall-and-notifications {
     display: flex;
+    justify-content: space-between;
     margin: 20px 0 0 0;
+}
+
+.ewn-item-footer {
+    border: 1px solid $gray-l0;
+    border-top: none;
+    padding: 0 0 35px 0;
+    background-color: $white;
+    border-radius: 0 0 6px 6px;
 }
 
 .footer {

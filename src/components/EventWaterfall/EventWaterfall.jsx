@@ -8,12 +8,12 @@ import article from "../../assets/images/article-image.jpg";
 
 const EventWaterfall = () => {
 return (
-  <div class="ewn-item event-waterfall">
-    <div class="ewn-item-title">
+  <div className="ewn-item event-waterfall">
+    <div className="ewn-item-title">
       <span className="ewn-title">Водопад событий</span>
       <span className="ewn-count">2</span>
     </div>
-    <div class="ewn-item-body">
+    <div className="ewn-item-body">
       <div className="news">
         <span className="news-label">Новое</span>
         <div className="news-user">
@@ -115,7 +115,7 @@ return (
         </article>
       </div>
     </div>
-    <div class="ewn-item-footer"></div>
+    <div className="ewn-item-footer"></div>
   </div>
 );
 }
