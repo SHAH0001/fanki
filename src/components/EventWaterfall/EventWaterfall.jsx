@@ -8,12 +8,12 @@ import article from "../../assets/images/article-image.jpg";
 
 const EventWaterfall = () => {
 return (
-  <div className="event-water-fall-block-wrapper">
-    <div className="event-water-fall-block">
-      <span className="event-water-fall-title">Водопад событий</span>
-      <span className="event-water-fall-count">2</span>
+  <div class="ewn-item event-waterfall">
+    <div class="ewn-item-title">
+      <span className="ewn-title">Водопад событий</span>
+      <span className="ewn-count">2</span>
     </div>
-    <div className="event-water-fall-block-body">
+    <div class="ewn-item-body">
       <div className="news">
         <span className="news-label">Новое</span>
         <div className="news-user">
@@ -21,7 +21,7 @@ return (
             <img src={avatar_10} alt="" />
           </a>
           <div className="news-user-info">
-            <a href="#" className="user-name">
+            <a href="#" className="news-user-name">
               Fanki Soft
             </a>
             <span className="publication-date">Сегодня, 10:50</span>
@@ -38,12 +38,12 @@ return (
             <img src={avatar_11} alt="" />
           </a>
           <div className="news-user-info">
-            <a href="#" className="user-name">
+            <a href="#" className="news-user-name">
               Fanki Soft
             </a>
             <span className="publication-date">Сегодня, 10:50</span>
             <p className="yesterday-publication-text">
-              Текст объявления, который написан от лица компании.
+              Текст объявления, который написан от лица сотрудника.
             </p>
           </div>
         </div>
@@ -115,6 +115,7 @@ return (
         </article>
       </div>
     </div>
+    <div class="ewn-item-footer"></div>
   </div>
 );
 }
