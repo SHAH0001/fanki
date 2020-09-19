@@ -1,2 +1,82 @@
 @import "../../scss/vars.scss";
 
+.notifications {
+    width: 32%;
+}
+
+.notifications-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    // padding: 17px 0 0 0;
+}
+
+.notification-item:first-child {
+    border-top: none;
+}
+
+.notification-item {
+    display: flex;
+    border-top: 1px solid $gray-l0;
+    padding: 17px 0 24px 0;
+}
+
+.notification-user-avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.notification-content {
+    margin: 0 0 0 10px;
+    padding: 0 0 0 0;
+}
+
+.notification-user-name-and-time {
+
+}
+
+.notification-user-name {
+    font-weight: 800;
+    font-size: 14px;
+    color: $black-l1;
+    text-decoration: none;
+}
+
+.notification-time {
+    font-weight: normal;
+    font-size: 14px;
+    color: $gray-l2;
+    margin: 0 0 0 10px;
+}
+
+.notification-what-user-does {
+    font-weight: bold;
+    font-size: 10px;
+    background: rgba(45, 156, 219, 0.1);
+    border-radius: 6px;
+    padding: 3px 10px;
+    color: $blue-s1;
+    text-transform: uppercase;
+}
+
+.notification-description {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 12px 0 0 0;
+    color: $black-l1;
+    line-height: 17px;
+}
+
+.notification-tags {
+
+}
+
+.notification-tag {
+    font-weight: 500;
+    font-size: 14px;
+    color: $gray-l2;
+}
+
+.ewn-item-footer {
+    // border: 1px solid $gray-l0;
+}

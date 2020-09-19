@@ -42,10 +42,52 @@ img {
     float: right;
 }
 
+.ewn-item {
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+}
+
 .event-waterfall-and-notifications {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 0;
+}
+
+
+.ewn-item-title {
+    background: #F5F5F5;
+    border: 1px solid $gray-l0;
+    border-radius: 6px 6px 0px 0px;
+    padding: 10px 0;
+}
+
+.ewn-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $black-l1;
+    padding: 0 0 0 20px;
+}
+
+.ewn-count {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: $red-s1;
+    color: $white;
+    padding: 1px 7px;
+    border-radius: 6px;
+    margin: 0 0 0 18px;
+}
+
+.ewn-item-body {
+    background-color: $white;
+    border-left: 1px solid $gray-l0;
+    border-right: 1px solid $gray-l0;
+    flex-grow: 1;
 }
 
 .ewn-item-footer {
